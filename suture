@@ -47,7 +47,7 @@ import os
 import struct
 from optparse import OptionParser
 
-sys.path.append(os.path.realpath(os.path.dirname(sys.argv[0])) + '/shop')
+sys.path.append(os.path.realpath(os.path.dirname(os.path.realpath(sys.argv[0]))) + '/shop')
 
 from ChopSuture import Suture
 

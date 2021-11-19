@@ -57,7 +57,7 @@ import Queue
 import time
 
 #Chopshop Working Directory -- defaults to where script exists
-CHOPSHOP_WD = os.path.realpath(os.path.dirname(sys.argv[0]))
+CHOPSHOP_WD = os.path.realpath(os.path.dirname(os.path.realpath(sys.argv[0])))
 
 sys.path.append(CHOPSHOP_WD + '/shop')
 

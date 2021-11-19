@@ -26,4 +26,4 @@
 import os
 import sys
 
-CHOPSHOP_WD = os.path.realpath(os.path.dirname(sys.argv[0]))
+CHOPSHOP_WD = os.path.realpath(os.path.dirname(os.path.realpath(sys.argv[0])))
